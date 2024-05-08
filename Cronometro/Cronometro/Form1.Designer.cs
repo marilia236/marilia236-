@@ -42,7 +42,7 @@
             // label1
             // 
             label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(63, 20);
+            label1.Location = new Point(29, 22);
             label1.Name = "label1";
             label1.Size = new Size(254, 46);
             label1.TabIndex = 0;
@@ -52,7 +52,7 @@
             // lblInicio
             // 
             lblInicio.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            lblInicio.Location = new Point(361, 20);
+            lblInicio.Location = new Point(327, 22);
             lblInicio.Name = "lblInicio";
             lblInicio.Size = new Size(137, 46);
             lblInicio.TabIndex = 1;
@@ -62,7 +62,7 @@
             // lblDuracao
             // 
             lblDuracao.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDuracao.Location = new Point(361, 84);
+            lblDuracao.Location = new Point(327, 86);
             lblDuracao.Name = "lblDuracao";
             lblDuracao.Size = new Size(137, 46);
             lblDuracao.TabIndex = 3;
@@ -72,7 +72,7 @@
             // label3
             // 
             label3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(63, 84);
+            label3.Location = new Point(29, 86);
             label3.Name = "label3";
             label3.Size = new Size(254, 46);
             label3.TabIndex = 2;
@@ -83,7 +83,7 @@
             // lblDuracaoSeg
             // 
             lblDuracaoSeg.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            lblDuracaoSeg.Location = new Point(361, 151);
+            lblDuracaoSeg.Location = new Point(327, 153);
             lblDuracaoSeg.Name = "lblDuracaoSeg";
             lblDuracaoSeg.Size = new Size(137, 46);
             lblDuracaoSeg.TabIndex = 5;
@@ -93,7 +93,7 @@
             // label5
             // 
             label5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            label5.Location = new Point(63, 151);
+            label5.Location = new Point(29, 153);
             label5.Name = "label5";
             label5.Size = new Size(254, 46);
             label5.TabIndex = 4;
@@ -103,7 +103,7 @@
             // btnIniciar
             // 
             btnIniciar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnIniciar.Location = new Point(161, 246);
+            btnIniciar.Location = new Point(127, 248);
             btnIniciar.Name = "btnIniciar";
             btnIniciar.Size = new Size(99, 46);
             btnIniciar.TabIndex = 6;
@@ -113,7 +113,7 @@
             // btnParar
             // 
             btnParar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnParar.Location = new Point(278, 246);
+            btnParar.Location = new Point(244, 248);
             btnParar.Name = "btnParar";
             btnParar.Size = new Size(99, 46);
             btnParar.TabIndex = 7;
@@ -123,7 +123,7 @@
             // btnLimpar
             // 
             btnLimpar.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            btnLimpar.Location = new Point(399, 246);
+            btnLimpar.Location = new Point(365, 248);
             btnLimpar.Name = "btnLimpar";
             btnLimpar.Size = new Size(99, 46);
             btnLimpar.TabIndex = 8;
@@ -134,7 +134,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(536, 332);
             Controls.Add(btnLimpar);
             Controls.Add(btnParar);
             Controls.Add(btnIniciar);
