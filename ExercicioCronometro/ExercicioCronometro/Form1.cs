@@ -22,7 +22,7 @@ namespace ExercicioCronometro
             }
             else
             {
-                _cronometro.startClock();
+                _cronometro.StartClock();
                 ButtonOnOff.Text = "Desliga";
                 TimerRelogio.Enabled = true;
             }

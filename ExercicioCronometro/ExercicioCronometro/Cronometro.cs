@@ -20,10 +20,10 @@
         #endregion
 
         //Método
-        public void startClock()
+        public void StartClock()
         {
             if (_isrunning)
-                throw new InvalidCastException("O cronometro já está ligado");
+                //throw new InvalidOperationException("O cronometro já está ligado");
 
             _start = DateTime.Now;
             _isrunning = true;
@@ -32,7 +32,7 @@
         public void StopClock()
         {
             if (!_isrunning)
-                throw new InvalidCastException("O cronometro já está desligado");
+                throw new InvalidOperationException("O cronometro já está desligado");
 
             _stop = DateTime.Now;
             _isrunning = false;
