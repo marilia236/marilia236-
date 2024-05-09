@@ -1,7 +1,9 @@
-﻿using ExercicioCronometro;
+﻿
 
 namespace CronometroConsola
 {
+    using ExercicioCronometro;
+
     internal class Program
     {
         static void Main(string[] args)
